@@ -22,7 +22,7 @@
 }
 
 .btn:hover{
-    background-color: #31a963;
+    background-color: #1f7041;
     /* border: 1px solid #FFFFFF; */
 }
 
@@ -88,9 +88,9 @@ nav .menu a:hover{
 #hero .hero-content .hero-chip{
     display: flex;
     margin: 0 auto;
-    /* justify-content: center;
-    align-items: center; */
-    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
     padding: 8px 12px;
     color: #30B868;
     font-size: 16px;
@@ -161,9 +161,6 @@ nav .menu a:hover{
     border-radius: 8px;
     box-shadow: 0 -12px 20px 0 #66656527;
     text-align: center;
-    /* padding-bottom: 24px; */
-    /* padding-left: 24px;
-    padding-right: 24px; */
 }
 
 .cards .card-body img{
@@ -185,10 +182,6 @@ nav .menu a:hover{
 }
 
 /* Solution Section */
-/* #solution{
-
-} */
-
 #solution .solution-container{
     display: flex;
     background-color: #FFFFFF;
@@ -222,12 +215,6 @@ nav .menu a:hover{
     margin-bottom: 40px;
 }
 
-/* ul{
-    list-style-image: url(../assets/CheckCircle.png);
-    list-style-position: inside;
-    margin: 0 auto;
-} */
-
 .lists .point{
     display: flex;
     gap: 6px;
@@ -257,7 +244,6 @@ nav .menu a:hover{
     font-size: 16px;
     color: #627382;
     line-height: 24px;
-    /* margin-bottom: 24px; */
     margin-top: 16px;
 }
 
@@ -266,8 +252,6 @@ nav .menu a:hover{
 }
 
 .bonus-info .bonus-btn{
-    /* margin-top: 24px; */
-    /* text-align: center; */
     display: flex;
     margin: auto;
     align-items: center;
@@ -301,12 +285,22 @@ footer .footer-container .footer-info{
 }
 
 .social-links i{
-    font-size: 20px;
-    color: #FFFFFF;
+    height: 10px;
+    width: 10px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer hr{
     margin-bottom: 30px;
+    border: 1px solid #627382;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 .copyright{
