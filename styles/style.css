@@ -222,9 +222,16 @@ nav .menu a:hover{
     margin-bottom: 40px;
 }
 
-ul{
+/* ul{
     list-style-image: url(../assets/CheckCircle.png);
     list-style-position: inside;
+    margin: 0 auto;
+} */
+
+.lists .point{
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
 }
 
 /* Bonus Section */
