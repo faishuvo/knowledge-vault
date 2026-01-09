@@ -158,17 +158,18 @@ nav .menu a:hover{
     border-radius: 8px;
     box-shadow: 0 -12px 20px 0 #66656527;
     text-align: center;
+    width: 322px;
 }
 
 .cards .card-body img{
     background-color: #F95555;
     border-radius: 50px;
     padding: 14px;
-    margin: 69px 131px 16px;
+    margin-top: 60px;
 }
 
 .cards .card-body h3{
-    margin-bottom: 16px;
+    margin-bottom: 5px;
 }
 
 .cards .card-body p{
